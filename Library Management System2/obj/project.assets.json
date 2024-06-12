@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {}
+    "C:\\Users\\nikhi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\Library Management System2\\Library Management System2\\Library Management System2.vbproj",
+      "projectUniqueName": "C:\\Users\\nikhi\\Source\\Repos\\Library-Management-System-\\Library Management System2\\Library Management System2.vbproj",
       "projectName": "Library Management System2",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\Library Management System2\\Library Management System2\\Library Management System2.vbproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\Library Management System2\\Library Management System2\\obj\\",
+      "projectPath": "C:\\Users\\nikhi\\Source\\Repos\\Library-Management-System-\\Library Management System2\\Library Management System2.vbproj",
+      "packagesPath": "C:\\Users\\nikhi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nikhi\\Source\\Repos\\Library-Management-System-\\Library Management System2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nikhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
