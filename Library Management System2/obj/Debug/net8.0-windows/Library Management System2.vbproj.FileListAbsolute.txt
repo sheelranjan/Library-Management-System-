@@ -1,0 +1,18 @@
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\bin\Debug\net8.0-windows\Library Management System2.exe
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\bin\Debug\net8.0-windows\Library Management System2.deps.json
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\bin\Debug\net8.0-windows\Library Management System2.runtimeconfig.json
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\bin\Debug\net8.0-windows\Library Management System2.dll
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\bin\Debug\net8.0-windows\Library Management System2.pdb
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\Library_Management_System2.Form1.resources
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\Library_Management_System2.login_form.resources
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\Library_Management_System2.Resources.resources
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\Library Management System2.vbproj.GenerateResource.cache
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\Library Management System2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\Library Management System2.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\Library Management System2.AssemblyInfo.vb
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\Library Management System2.vbproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\Library Management System2.dll
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\refint\Library Management System2.dll
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\Library Management System2.pdb
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\Library Management System2.genruntimeconfig.cache
+C:\Users\hp\source\repos\Library Management System2\Library Management System2\obj\Debug\net8.0-windows\ref\Library Management System2.dll
