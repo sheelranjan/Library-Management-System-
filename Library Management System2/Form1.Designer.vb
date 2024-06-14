@@ -30,6 +30,7 @@ Partial Class Form1
         Button1 = New Button()
         Timer1 = New Timer(components)
         Process1 = New Process()
+        Timer2 = New Timer(components)
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -58,10 +59,14 @@ Partial Class Form1
         ' 
         ' ProgressBar1
         ' 
+        ProgressBar1.ForeColor = SystemColors.MenuHighlight
         ProgressBar1.Location = New Point(13, 370)
         ProgressBar1.Margin = New Padding(4)
+        ProgressBar1.MarqueeAnimationSpeed = 75
         ProgressBar1.Name = "ProgressBar1"
         ProgressBar1.Size = New Size(912, 16)
+        ProgressBar1.Step = 25
+        ProgressBar1.Style = ProgressBarStyle.Continuous
         ProgressBar1.TabIndex = 2
         ' 
         ' Button1
@@ -76,9 +81,6 @@ Partial Class Form1
         Button1.TabIndex = 3
         Button1.Text = "Login"
         Button1.UseVisualStyleBackColor = False
-        ' 
-        ' Timer1
-        ' 
         ' 
         ' Process1
         ' 
@@ -119,5 +121,6 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Process1 As Process
+    Friend WithEvents Timer2 As Timer
 
 End Class

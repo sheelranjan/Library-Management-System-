@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Library_Management_System2
-build_property.ProjectDir = C:\Users\nikhi\Source\Repos\Library-Management-System-\Library Management System2\
+build_property.ProjectDir = C:\Users\nikhi\source\repos\Library-Management-System-\Library Management System2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
