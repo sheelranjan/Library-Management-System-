@@ -41,7 +41,7 @@ Partial Class login_form
         Label1.AutoSize = True
         Label1.Font = New Font("Century Gothic", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.OrangeRed
-        Label1.Location = New Point(320, 29)
+        Label1.Location = New Point(392, 31)
         Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
         Label1.Size = New Size(161, 34)
@@ -56,21 +56,21 @@ Partial Class login_form
         Label2.Location = New Point(199, 131)
         Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(91, 30)
+        Label2.Size = New Size(148, 30)
         Label2.TabIndex = 1
-        Label2.Text = "User Id"
+        Label2.Text = "Username -"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.OrangeRed
-        Label3.Location = New Point(184, 214)
+        Label3.Location = New Point(199, 212)
         Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(122, 30)
+        Label3.Size = New Size(130, 30)
         Label3.TabIndex = 2
-        Label3.Text = "Password"
+        Label3.Text = "Password-"
         ' 
         ' Label4
         ' 
@@ -91,22 +91,25 @@ Partial Class login_form
         Label6.Location = New Point(212, 296)
         Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(66, 30)
+        Label6.Size = New Size(74, 30)
         Label6.TabIndex = 5
-        Label6.Text = "Role"
+        Label6.Text = "Role-"
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(349, 126)
-        TextBox1.Margin = New Padding(4, 4, 4, 4)
+        TextBox1.BackColor = SystemColors.MenuBar
+        TextBox1.Cursor = Cursors.IBeam
+        TextBox1.Location = New Point(398, 130)
+        TextBox1.Margin = New Padding(4)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(155, 31)
         TextBox1.TabIndex = 6
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(359, 209)
-        TextBox2.Margin = New Padding(4, 4, 4, 4)
+        TextBox2.Cursor = Cursors.IBeam
+        TextBox2.Location = New Point(398, 211)
+        TextBox2.Margin = New Padding(4)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(155, 31)
         TextBox2.TabIndex = 7
@@ -115,8 +118,8 @@ Partial Class login_form
         ' 
         ComboBox1.FormattingEnabled = True
         ComboBox1.Items.AddRange(New Object() {"User ", "Admin"})
-        ComboBox1.Location = New Point(359, 290)
-        ComboBox1.Margin = New Padding(4, 4, 4, 4)
+        ComboBox1.Location = New Point(398, 293)
+        ComboBox1.Margin = New Padding(4)
         ComboBox1.Name = "ComboBox1"
         ComboBox1.Size = New Size(155, 33)
         ComboBox1.TabIndex = 10
@@ -125,8 +128,8 @@ Partial Class login_form
         ' 
         Button1.Font = New Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.OrangeRed
-        Button1.Location = New Point(136, 451)
-        Button1.Margin = New Padding(4, 4, 4, 4)
+        Button1.Location = New Point(151, 449)
+        Button1.Margin = New Padding(4)
         Button1.Name = "Button1"
         Button1.Size = New Size(118, 36)
         Button1.TabIndex = 11
@@ -137,8 +140,8 @@ Partial Class login_form
         ' 
         Button2.Font = New Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Button2.ForeColor = Color.OrangeRed
-        Button2.Location = New Point(742, 451)
-        Button2.Margin = New Padding(4, 4, 4, 4)
+        Button2.Location = New Point(662, 449)
+        Button2.Margin = New Padding(4)
         Button2.Name = "Button2"
         Button2.Size = New Size(141, 36)
         Button2.TabIndex = 12
@@ -150,7 +153,7 @@ Partial Class login_form
         Button3.Font = New Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Button3.ForeColor = Color.OrangeRed
         Button3.Location = New Point(398, 449)
-        Button3.Margin = New Padding(4, 4, 4, 4)
+        Button3.Margin = New Padding(4)
         Button3.Name = "Button3"
         Button3.Size = New Size(118, 36)
         Button3.TabIndex = 13
@@ -160,14 +163,15 @@ Partial Class login_form
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.BackColor = Color.Goldenrod
+        Label5.BackColor = Color.Transparent
+        Label5.Cursor = Cursors.Hand
         Label5.FlatStyle = FlatStyle.Flat
-        Label5.Font = New Font("Segoe UI", 16F)
+        Label5.Font = New Font("Eras Bold ITC", 14F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.OrangeRed
-        Label5.Location = New Point(765, 19)
+        Label5.Location = New Point(796, 9)
         Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(132, 45)
+        Label5.Size = New Size(123, 33)
         Label5.TabIndex = 14
         Label5.Text = "Sign Up"
         ' 
@@ -175,6 +179,7 @@ Partial Class login_form
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(941, 500)
         Controls.Add(Label5)
         Controls.Add(Button3)
@@ -189,7 +194,7 @@ Partial Class login_form
         Controls.Add(Label2)
         Controls.Add(Label1)
         FormBorderStyle = FormBorderStyle.None
-        Margin = New Padding(4, 4, 4, 4)
+        Margin = New Padding(4)
         Name = "login_form"
         StartPosition = FormStartPosition.CenterScreen
         Text = "login_form"

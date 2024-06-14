@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikhi\\Source\\Repos\\Library-Management-System-\\Library Management System2\\Library Management System2.vbproj": {}
+    "C:\\Users\\nikhi\\source\\repos\\Library-Management-System-\\Library Management System2\\Library Management System2.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\nikhi\\Source\\Repos\\Library-Management-System-\\Library Management System2\\Library Management System2.vbproj": {
+    "C:\\Users\\nikhi\\source\\repos\\Library-Management-System-\\Library Management System2\\Library Management System2.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikhi\\Source\\Repos\\Library-Management-System-\\Library Management System2\\Library Management System2.vbproj",
+        "projectUniqueName": "C:\\Users\\nikhi\\source\\repos\\Library-Management-System-\\Library Management System2\\Library Management System2.vbproj",
         "projectName": "Library Management System2",
-        "projectPath": "C:\\Users\\nikhi\\Source\\Repos\\Library-Management-System-\\Library Management System2\\Library Management System2.vbproj",
+        "projectPath": "C:\\Users\\nikhi\\source\\repos\\Library-Management-System-\\Library Management System2\\Library Management System2.vbproj",
         "packagesPath": "C:\\Users\\nikhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikhi\\Source\\Repos\\Library-Management-System-\\Library Management System2\\obj\\",
+        "outputPath": "C:\\Users\\nikhi\\source\\repos\\Library-Management-System-\\Library Management System2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikhi\\AppData\\Roaming\\NuGet\\NuGet.Config",

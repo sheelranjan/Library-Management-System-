@@ -29,6 +29,7 @@ Partial Class Form1
         ProgressBar1 = New ProgressBar()
         Button1 = New Button()
         Timer1 = New Timer(components)
+        Process1 = New Process()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -37,54 +38,75 @@ Partial Class Form1
         Label1.AutoSize = True
         Label1.Font = New Font("Century Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.OrangeRed
-        Label1.Location = New Point(113, 59)
+        Label1.Location = New Point(198, 72)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(474, 37)
+        Label1.Size = New Size(553, 43)
         Label1.TabIndex = 0
-        Label1.Text = "LIBRARY MANAGEMENT SYATEM"
+        Label1.Text = "LIBRARY MANAGEMENT SYSTEM"
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(293, 116)
+        PictureBox1.Location = New Point(378, 158)
+        PictureBox1.Margin = New Padding(4)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(137, 113)
+        PictureBox1.Size = New Size(171, 141)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 1
         PictureBox1.TabStop = False
         ' 
         ' ProgressBar1
         ' 
-        ProgressBar1.Location = New Point(1, 296)
+        ProgressBar1.Location = New Point(13, 370)
+        ProgressBar1.Margin = New Padding(4)
         ProgressBar1.Name = "ProgressBar1"
-        ProgressBar1.Size = New Size(730, 13)
+        ProgressBar1.Size = New Size(912, 16)
         ProgressBar1.TabIndex = 2
         ' 
         ' Button1
         ' 
+        Button1.BackColor = SystemColors.ButtonFace
+        Button1.Cursor = Cursors.Hand
         Button1.Font = New Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button1.Location = New Point(336, 327)
+        Button1.Location = New Point(406, 405)
+        Button1.Margin = New Padding(4)
         Button1.Name = "Button1"
-        Button1.Size = New Size(94, 33)
+        Button1.Size = New Size(118, 41)
         Button1.TabIndex = 3
         Button1.Text = "Login"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Timer1
         ' 
         ' 
+        ' Process1
+        ' 
+        Process1.StartInfo.Domain = ""
+        Process1.StartInfo.LoadUserProfile = False
+        Process1.StartInfo.Password = Nothing
+        Process1.StartInfo.StandardErrorEncoding = Nothing
+        Process1.StartInfo.StandardInputEncoding = Nothing
+        Process1.StartInfo.StandardOutputEncoding = Nothing
+        Process1.StartInfo.UseCredentialsForNetworkingOnly = False
+        Process1.StartInfo.UserName = ""
+        Process1.SynchronizingObject = Me
+        ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(733, 381)
+        BackColor = SystemColors.GradientInactiveCaption
+        ClientSize = New Size(933, 476)
         Controls.Add(Button1)
         Controls.Add(ProgressBar1)
         Controls.Add(PictureBox1)
         Controls.Add(Label1)
         ForeColor = Color.OrangeRed
-        FormBorderStyle = FormBorderStyle.None
+        FormBorderStyle = FormBorderStyle.FixedToolWindow
+        Margin = New Padding(4)
         Name = "Form1"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Login"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
@@ -96,5 +118,6 @@ Partial Class Form1
     Friend WithEvents ProgressBar1 As ProgressBar
     Friend WithEvents Button1 As Button
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents Process1 As Process
 
 End Class
